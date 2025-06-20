@@ -72,7 +72,7 @@ ai-data-analyst-poc\ <br>
 
 6. Run the app:
     ```bash
-    streamlit run app.py
+    streamlit run app/app.py
     ```
 
 ---
