@@ -50,26 +50,27 @@ ai-data-analyst-poc\ <br>
     git clone repo
     cd ai-data-analyst-poc
     ```
+2. Install python 3.11.*
 
-2. Set up virtual environment:
+3. Set up virtual environment:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
 
-3. Install dependencies:
+4. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Set environment variables in `.env`:
+5. Set environment variables in `.env`:
     ```env
     API_KEY=your-openai-api-key
     PATH_TO_DB=/absolute/or/relative/path/to/db/my_db.db
     PATH_TO_DATA=/absolute/or/relative/path/to/data/Data_Pump.xlsx
     ```
 
-5. Run the app:
+6. Run the app:
     ```bash
     streamlit run app.py
     ```
