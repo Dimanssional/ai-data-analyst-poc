@@ -69,8 +69,11 @@ ai-data-analyst-poc\ <br>
     PATH_TO_DB=/absolute/or/relative/path/to/db/my_db.db
     PATH_TO_DATA=/absolute/or/relative/path/to/data/Data_Pump.xlsx
     ```
-
-6. Run the app:
+6. Set path to .env file in app.py
+    ```
+    config = dotenv_values("<your path to .env>")
+    ```
+7. Run the app:
     ```bash
     streamlit run app/app.py
     ```
